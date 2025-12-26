@@ -1,0 +1,60 @@
+============================================================
+MAZE SOLVER RUN SUMMARY
+============================================================
+
+Timestamp: 2025-11-03 13:43:37
+Start Color: GREEN
+Grid Size: 5x5
+Path Length: 11 cells
+Waypoints: 11
+
+Pixel Coordinates:
+----------------------------------------
+  [ 0] ( 474,  321)
+  [ 1] ( 459,  255)
+  [ 2] ( 395,  269)
+  [ 3] ( 381,  205)
+  [ 4] ( 318,  219)
+  [ 5] ( 304,  156)
+  [ 6] ( 367,  141)
+  [ 7] ( 352,   76)
+  [ 8] ( 289,   91)
+  [ 9] ( 226,  106)
+  [10] ( 162,  121)
+
+Dobot Coordinates:
+----------------------------------------
+  [ 0] ( 334.43,   68.66,  -40.00)
+  [ 1] ( 304.12,   61.27,  -40.00)
+  [ 2] ( 310.55,   29.72,  -40.00)
+  [ 3] ( 281.15,   22.82,  -40.00)
+  [ 4] ( 287.58,   -8.24,  -40.00)
+  [ 5] ( 258.65,  -15.14,  -40.00)
+  [ 6] ( 251.76,   15.92,  -40.00)
+  [ 7] ( 221.91,    8.52,  -40.00)
+  [ 8] ( 228.80,  -22.54,  -40.00)
+  [ 9] ( 235.68,  -53.59,  -40.00)
+  [10] ( 242.57,  -85.14,  -40.00)
+
+Path Verification:
+----------------------------------------
+  Valid: True
+  Collision Ratio: 0.0000
+  Samples: 377
+
+Files Saved:
+----------------------------------------
+  00_captured_maze.jpg       - Original camera capture
+  00_warped_maze.jpg         - Perspective-corrected maze
+  01_binary_initial.jpg      - Binary threshold (before)
+  02_dot_detection.jpg       - Red/Green dot detection
+  03_binary_dots_carved.jpg  - Binary threshold (after)
+  04_grid_detection.jpg      - Grid line detection
+  05_edges.jpg               - Edge detection
+  06_solved_warped.jpg       - Solution (warped)
+  07_solved_unwarped.jpg     - Solution (camera view)
+  08_waypoints_annotated.jpg - Numbered waypoints
+  coordinates.csv            - Pixel & Dobot coordinates
+  summary.txt                - This file
+
+============================================================

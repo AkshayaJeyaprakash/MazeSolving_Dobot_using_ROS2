@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating maze_solver.egg-info
+writing maze_solver.egg-info/PKG-INFO
+writing dependency_links to maze_solver.egg-info/dependency_links.txt
+writing entry points to maze_solver.egg-info/entry_points.txt
+writing requirements to maze_solver.egg-info/requires.txt
+writing top-level names to maze_solver.egg-info/top_level.txt
+writing manifest file 'maze_solver.egg-info/SOURCES.txt'
+reading manifest file 'maze_solver.egg-info/SOURCES.txt'
+writing manifest file 'maze_solver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aj/maze_solver_ws/install/maze_solver/lib/python3.10/site-packages/maze-solver.egg-link (link to .)
+Installing claude_bridge_node script to /home/aj/maze_solver_ws/install/maze_solver/lib/maze_solver
+Installing executor_node script to /home/aj/maze_solver_ws/install/maze_solver/lib/maze_solver
+Installing perception_node script to /home/aj/maze_solver_ws/install/maze_solver/lib/maze_solver
+
+Installed /home/aj/maze_solver_ws/build/maze_solver
+running symlink_data
+creating /home/aj/maze_solver_ws/install/maze_solver/share/ament_index
+creating /home/aj/maze_solver_ws/install/maze_solver/share/ament_index/resource_index
+creating /home/aj/maze_solver_ws/install/maze_solver/share/ament_index/resource_index/packages
+symbolically linking /home/aj/maze_solver_ws/build/maze_solver/resource/maze_solver -> /home/aj/maze_solver_ws/install/maze_solver/share/ament_index/resource_index/packages
+symbolically linking /home/aj/maze_solver_ws/build/maze_solver/package.xml -> /home/aj/maze_solver_ws/install/maze_solver/share/maze_solver

@@ -1,0 +1,26 @@
+[0.592s] Invoking command in '/home/aj/maze_solver_ws/build/maze_solver': PYTHONPATH=/home/aj/maze_solver_ws/build/maze_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aj/maze_solver_ws/install/maze_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aj/maze_solver_ws/build/maze_solver/build --no-deps symlink_data
+[0.854s] running develop
+[1.046s] running egg_info
+[1.046s] creating maze_solver.egg-info
+[1.046s] writing maze_solver.egg-info/PKG-INFO
+[1.046s] writing dependency_links to maze_solver.egg-info/dependency_links.txt
+[1.047s] writing entry points to maze_solver.egg-info/entry_points.txt
+[1.047s] writing requirements to maze_solver.egg-info/requires.txt
+[1.047s] writing top-level names to maze_solver.egg-info/top_level.txt
+[1.047s] writing manifest file 'maze_solver.egg-info/SOURCES.txt'
+[1.048s] reading manifest file 'maze_solver.egg-info/SOURCES.txt'
+[1.049s] writing manifest file 'maze_solver.egg-info/SOURCES.txt'
+[1.050s] running build_ext
+[1.050s] Creating /home/aj/maze_solver_ws/install/maze_solver/lib/python3.10/site-packages/maze-solver.egg-link (link to .)
+[1.051s] Installing claude_bridge_node script to /home/aj/maze_solver_ws/install/maze_solver/lib/maze_solver
+[1.051s] Installing executor_node script to /home/aj/maze_solver_ws/install/maze_solver/lib/maze_solver
+[1.051s] Installing perception_node script to /home/aj/maze_solver_ws/install/maze_solver/lib/maze_solver
+[1.051s] 
+[1.051s] Installed /home/aj/maze_solver_ws/build/maze_solver
+[1.051s] running symlink_data
+[1.052s] creating /home/aj/maze_solver_ws/install/maze_solver/share/ament_index
+[1.052s] creating /home/aj/maze_solver_ws/install/maze_solver/share/ament_index/resource_index
+[1.052s] creating /home/aj/maze_solver_ws/install/maze_solver/share/ament_index/resource_index/packages
+[1.052s] symbolically linking /home/aj/maze_solver_ws/build/maze_solver/resource/maze_solver -> /home/aj/maze_solver_ws/install/maze_solver/share/ament_index/resource_index/packages
+[1.052s] symbolically linking /home/aj/maze_solver_ws/build/maze_solver/package.xml -> /home/aj/maze_solver_ws/install/maze_solver/share/maze_solver
+[1.076s] Invoked command in '/home/aj/maze_solver_ws/build/maze_solver' returned '0': PYTHONPATH=/home/aj/maze_solver_ws/build/maze_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aj/maze_solver_ws/install/maze_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aj/maze_solver_ws/build/maze_solver/build --no-deps symlink_data

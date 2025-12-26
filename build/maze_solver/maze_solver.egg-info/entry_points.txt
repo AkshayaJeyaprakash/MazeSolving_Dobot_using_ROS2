@@ -1,0 +1,5 @@
+[console_scripts]
+claude_bridge_node = maze_solver.claude_bridge_node:main
+executor_node = maze_solver.executor_node:main
+perception_node = maze_solver.perception_node:main
+

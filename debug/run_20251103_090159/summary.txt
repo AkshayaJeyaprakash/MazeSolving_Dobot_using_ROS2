@@ -1,0 +1,52 @@
+============================================================
+MAZE SOLVER RUN SUMMARY
+============================================================
+
+Timestamp: 2025-11-03 09:01:59
+Start Color: GREEN
+Grid Size: 4x4
+Path Length: 7 cells
+Waypoints: 7
+
+Pixel Coordinates:
+----------------------------------------
+  [ 0] ( 291,  353)
+  [ 1] ( 283,  275)
+  [ 2] ( 362,  267)
+  [ 3] ( 355,  188)
+  [ 4] ( 348,  104)
+  [ 5] ( 267,  111)
+  [ 6] ( 181,  118)
+
+Dobot Coordinates:
+----------------------------------------
+  [ 0] ( 428.91,   -4.77,  -43.00)
+  [ 1] ( 382.73,   -9.66,  -43.00)
+  [ 2] ( 377.89,   34.22,  -43.00)
+  [ 3] ( 329.12,   30.55,  -43.00)
+  [ 4] ( 275.12,   26.74,  -43.00)
+  [ 5] ( 279.70,  -20.09,  -43.00)
+  [ 6] ( 284.28,  -69.65,  -43.00)
+
+Path Verification:
+----------------------------------------
+  Valid: True
+  Collision Ratio: 0.0000
+  Samples: 290
+
+Files Saved:
+----------------------------------------
+  00_captured_maze.jpg       - Original camera capture
+  00_warped_maze.jpg         - Perspective-corrected maze
+  01_binary_initial.jpg      - Binary threshold (before)
+  02_dot_detection.jpg       - Red/Green dot detection
+  03_binary_dots_carved.jpg  - Binary threshold (after)
+  04_grid_detection.jpg      - Grid line detection
+  05_edges.jpg               - Edge detection
+  06_solved_warped.jpg       - Solution (warped)
+  07_solved_unwarped.jpg     - Solution (camera view)
+  08_waypoints_annotated.jpg - Numbered waypoints
+  coordinates.csv            - Pixel & Dobot coordinates
+  summary.txt                - This file
+
+============================================================
